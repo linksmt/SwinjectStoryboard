@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BF2F77E25DA89DE000AB6CA /* Swinject.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF2F77D25DA89DE000AB6CA /* Swinject.xcframework */; };
+		2BF2F78425DA8A03000AB6CA /* Nimble.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF2F78225DA8A03000AB6CA /* Nimble.xcframework */; };
+		2BF2F78525DA8A03000AB6CA /* Quick.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF2F78325DA8A03000AB6CA /* Quick.xcframework */; };
+		2BF2F78C25DA8A0C000AB6CA /* Swinject.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF2F77D25DA89DE000AB6CA /* Swinject.xcframework */; };
+		2BF2F79025DA8A17000AB6CA /* Nimble.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF2F78225DA8A03000AB6CA /* Nimble.xcframework */; };
+		2BF2F79125DA8A17000AB6CA /* Quick.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF2F78325DA8A03000AB6CA /* Quick.xcframework */; };
+		2BF2F79525DA8A1F000AB6CA /* Swinject.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF2F77D25DA89DE000AB6CA /* Swinject.xcframework */; };
+		2BF2F79925DA8A2B000AB6CA /* Nimble.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF2F78225DA8A03000AB6CA /* Nimble.xcframework */; };
+		2BF2F79A25DA8A2B000AB6CA /* Quick.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF2F78325DA8A03000AB6CA /* Quick.xcframework */; };
 		983DFEA51CDB410D00D39731 /* Container+SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFE9F1CDB410D00D39731 /* Container+SwinjectStoryboard.swift */; };
 		983DFEA61CDB410D00D39731 /* Container+SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFE9F1CDB410D00D39731 /* Container+SwinjectStoryboard.swift */; };
 		983DFEA71CDB410D00D39731 /* Container+SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFE9F1CDB410D00D39731 /* Container+SwinjectStoryboard.swift */; };
@@ -103,21 +112,12 @@
 		CD6073911EBB3E8C00BE2167 /* Storyboard1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6073901EBB3E8C00BE2167 /* Storyboard1.storyboard */; };
 		CD6073931EBB3F1400BE2167 /* RelationshipReference2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6073921EBB3F1400BE2167 /* RelationshipReference2.storyboard */; };
 		CD6073951EBB3F6200BE2167 /* RelationshipReference1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6073941EBB3F6200BE2167 /* RelationshipReference1.storyboard */; };
-		CDA864931EA9F17A00293FEC /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA864921EA9F17A00293FEC /* Swinject.framework */; };
-		CDA864951EA9F19400293FEC /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA864941EA9F19400293FEC /* Swinject.framework */; };
-		CDA864971EA9F1A000293FEC /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA864961EA9F1A000293FEC /* Swinject.framework */; };
-		CDA8649A1EA9F1B600293FEC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA864981EA9F1B600293FEC /* Nimble.framework */; };
-		CDA8649B1EA9F1B600293FEC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA864991EA9F1B600293FEC /* Quick.framework */; };
 		CDA864A41EA9F22900293FEC /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA864981EA9F1B600293FEC /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CDA864A51EA9F22900293FEC /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA864991EA9F1B600293FEC /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CDA864A81EA9F23200293FEC /* Swinject.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA864921EA9F17A00293FEC /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CDA864AB1EA9F25C00293FEC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA864AA1EA9F25C00293FEC /* Quick.framework */; };
 		CDA864AE1EA9F27100293FEC /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA864AA1EA9F25C00293FEC /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CDA864B01EA9F27200293FEC /* Swinject.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA864941EA9F19400293FEC /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CDA864B21EA9F28E00293FEC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA864B11EA9F28E00293FEC /* Nimble.framework */; };
 		CDA864B31EA9F29100293FEC /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA864B11EA9F28E00293FEC /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CDA864B61EA9F29E00293FEC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA864B41EA9F29E00293FEC /* Nimble.framework */; };
-		CDA864B71EA9F29E00293FEC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA864B51EA9F29E00293FEC /* Quick.framework */; };
 		CDA864B91EA9F2A600293FEC /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA864B41EA9F29E00293FEC /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CDA864BA1EA9F2A600293FEC /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA864B51EA9F29E00293FEC /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CDA864BB1EA9F2AA00293FEC /* Swinject.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA864961EA9F1A000293FEC /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -199,6 +199,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2BF2F77D25DA89DE000AB6CA /* Swinject.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Swinject.xcframework; path = Carthage/Build/Swinject.xcframework; sourceTree = "<group>"; };
+		2BF2F78225DA8A03000AB6CA /* Nimble.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Nimble.xcframework; path = Carthage/Build/Nimble.xcframework; sourceTree = "<group>"; };
+		2BF2F78325DA8A03000AB6CA /* Quick.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Quick.xcframework; path = Carthage/Build/Quick.xcframework; sourceTree = "<group>"; };
 		983DFE9F1CDB410D00D39731 /* Container+SwinjectStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+SwinjectStoryboard.swift"; sourceTree = "<group>"; };
 		983DFEA11CDB410D00D39731 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboard.swift; sourceTree = "<group>"; };
 		983DFEA21CDB410D00D39731 /* SwinjectStoryboardOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboardOption.swift; sourceTree = "<group>"; };
@@ -303,7 +306,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA864931EA9F17A00293FEC /* Swinject.framework in Frameworks */,
+				2BF2F77E25DA89DE000AB6CA /* Swinject.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,9 +314,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA8649A1EA9F1B600293FEC /* Nimble.framework in Frameworks */,
-				CDA8649B1EA9F1B600293FEC /* Quick.framework in Frameworks */,
 				985904111CDB0AA700275E4A /* SwinjectStoryboard.framework in Frameworks */,
+				2BF2F78425DA8A03000AB6CA /* Nimble.xcframework in Frameworks */,
+				2BF2F78525DA8A03000AB6CA /* Quick.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +324,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA864951EA9F19400293FEC /* Swinject.framework in Frameworks */,
+				2BF2F78C25DA8A0C000AB6CA /* Swinject.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,9 +332,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA864B21EA9F28E00293FEC /* Nimble.framework in Frameworks */,
-				CDA864AB1EA9F25C00293FEC /* Quick.framework in Frameworks */,
 				98D562821CDB173500DECDC0 /* SwinjectStoryboard.framework in Frameworks */,
+				2BF2F79025DA8A17000AB6CA /* Nimble.xcframework in Frameworks */,
+				2BF2F79125DA8A17000AB6CA /* Quick.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +342,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA864971EA9F1A000293FEC /* Swinject.framework in Frameworks */,
+				2BF2F79525DA8A1F000AB6CA /* Swinject.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +350,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA864B61EA9F29E00293FEC /* Nimble.framework in Frameworks */,
-				CDA864B71EA9F29E00293FEC /* Quick.framework in Frameworks */,
 				98D5629E1CDB19AB00DECDC0 /* SwinjectStoryboard.framework in Frameworks */,
+				2BF2F79925DA8A2B000AB6CA /* Nimble.xcframework in Frameworks */,
+				2BF2F79A25DA8A2B000AB6CA /* Quick.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +625,9 @@
 		CDA864911EA9F17900293FEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2BF2F78225DA8A03000AB6CA /* Nimble.xcframework */,
+				2BF2F78325DA8A03000AB6CA /* Quick.xcframework */,
+				2BF2F77D25DA89DE000AB6CA /* Swinject.xcframework */,
 				CDA864B41EA9F29E00293FEC /* Nimble.framework */,
 				CDA864B51EA9F29E00293FEC /* Quick.framework */,
 				CDA864B11EA9F28E00293FEC /* Nimble.framework */,
@@ -1105,7 +1111,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectStoryboard";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1125,7 +1135,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectStoryboard";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1176,7 +1190,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectStoryboard";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1195,7 +1213,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectStoryboard";
 			};
 			name = Release;
@@ -1244,7 +1266,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectStoryboard";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1265,7 +1291,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				INFOPLIST_FILE = Sources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectStoryboard";
 				TARGETED_DEVICE_FAMILY = 3;
 			};
